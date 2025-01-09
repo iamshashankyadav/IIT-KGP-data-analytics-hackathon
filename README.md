@@ -2,9 +2,12 @@
 # 🌟 NSSC Hackathon Project: Cosmic Collision-Analysing Asteroid Risks with Data
 
 ## 📝 Problem Statement
-During the prestigious NSSC Hackathon, we tackled a problem centered around **[describe the challenge briefly, e.g., predictive modeling, classification, etc.]**. The objective was to design a machine learning solution capable of [specific objective, e.g., accurately classifying, predicting, or analyzing data], utilizing a real-world dataset provided during the competition.
+The primary objective of this analysis is to use data analytics and machine learning techniques
+to determine the likelihood of an asteroid being hazardous to Earth based on various features
+provided in the dataset. This includes examining characteristics such as the asteroid's size,
+orbital parameters, velocity, and proximity to Earth's orbit.
 
-The dataset contained [details about the dataset, e.g., number of records, features, target variable]. Our goal was to not only build an accurate model but also ensure it was interpretable, efficient, and deployable.
+The dataset contained values of different features eg epoch osculation, relative velocity, aphelion distance etc. Our goal was to not only build an accurate model but also ensure it was interpretable and efficient.
 
 ---
 
@@ -36,13 +39,9 @@ To address the problem effectively, we employed the **Random Forest Algorithm**,
 
 4. **Evaluation and Insights**:
    - Evaluated the model using metrics like:
-     - Classification tasks: Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
+     - Classification tasks: Accuracy, F1-Score, and Confusion Matrix.
      - Regression tasks: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R² score.
    - Visualized feature importance and other insights using Matplotlib and Seaborn.
-
-5. **Deployment**:
-   - Packaged the solution for deployment using [e.g., Flask, Streamlit, or a simple script-based interface].
-   - Designed a user-friendly interface for real-time interaction with the model.
 
 ---
 
@@ -66,5 +65,3 @@ These results validated the robustness of our approach and showcased its scalabi
   - [Optional: Flask/Streamlit for deployment]
 
 ---
-
-## 📂 Project Structure
