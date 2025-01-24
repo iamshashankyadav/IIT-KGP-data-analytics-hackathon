@@ -47,9 +47,8 @@ To address the problem effectively, we employed the **Random Forest Algorithm**,
 
 ## 📊 Results
 Our Random Forest model demonstrated:
-- **Accuracy**: [e.g., 96%] on the test set.
-- **[Other Metrics]**: [e.g., Precision: 0.94, F1-Score: 0.92].
-- Significant insights into feature importance, highlighting [key influential features].
+- **Accuracy**: 83% on the test set.
+- Significant insights into feature importance, highlighting [kMiles per hour].
 
 These results validated the robustness of our approach and showcased its scalability for real-world applications.
 
